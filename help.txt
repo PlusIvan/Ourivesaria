@@ -1,0 +1,7 @@
+A casa “Reluz” é especializada em diamantes, pedras preciosas e ourives. Pretendemos um site
+que nos permite comunicar os diferentes serviços e produtos que temos disponíveis na nossa
+loja. Em diamantes e pedras preciosas, fazemos avaliação e lapidação das pedras, recuperação
+das mesmas e aplicação de pedras em artigos de ouro.
+Na parte de ourivesaria pretendemos uma montra com 2 artigos em destaque que podemos ser
+desde um fio a um relógio e mais 8 produtos que apresentam uma foto, preço e nome do
+produto. Pretendemos poder navegar na informação também em telemóvel.
