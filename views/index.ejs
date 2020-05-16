@@ -6,9 +6,9 @@
     <title>Document</title>
     <link rel="stylesheet" type="" href="css/tailwind.css">
 </head>
-<body class="flex flex-col min-h-screen bg-indigo-100">
+<body class="flex flex-col min-h-screen bg-gray-900">
 
-    <header><%- include('blocks/nav.html'); %></header>
+    <header><%- include('blocks/nav.ejs',location); %></header>
 
         <main class="flex-grow"><%- include(`pages/${location}.html`); %></main>
 

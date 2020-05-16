@@ -14,3 +14,11 @@ app.use(express.urlencoded({ extended: true }));
 app.get(['/'], function (req, res) {
     res.render('index', {location:'landing'});
 });
+
+app.get(['/shop'], function (req, res) {
+    res.render('index', {location:'shop'});
+});
+
+app.get(['/more'], function (req, res) {
+    res.render('index', {location:'more'});
+});
