@@ -19,6 +19,6 @@ app.get(['/shop'], function (req, res) {
     res.render('index', {location:'shop'});
 });
 
-app.get(['/more'], function (req, res) {
-    res.render('index', {location:'more'});
+app.get(['/about'], function (req, res) {
+    res.render('index', {location:'about'});
 });
