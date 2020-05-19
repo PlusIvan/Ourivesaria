@@ -1,11 +1,11 @@
 <div class="container mx-auto mt-8">
-    <div class="rounded-lg text-indigo-200 py-48" style="background-image: url(svg/blob.svg); background-repeat: no-repeat; background-position: center; background-size:fit;">
+    <div class="rounded-lg text-indigo-200 py-48 blob">
 
-        <div class="flex items-center justify-center py-8 relative">
-            <div class="absolute top-0 transform -translate-y-24 -translate-x-20">
+        <div class="flex items-center justify-center py-8 xl:relative">
+            <div class="hidden xl:block absolute top-0 transform -translate-y-24 -translate-x-20">
                 <object data="svg/mail.svg" type="" class="w-32"></object>
             </div>
-            <p class="z-10 uppercase text-4xl font-mono tracking-wider"><span class="border-b-8 border-indigo-200">c</span><span class="border-b-8 border-indigo-200">o</span><span class="border-b-8 border-indigo-200">n</span>t<span class="border-t-8 border-indigo-200">a</span><span class="border-t-8 border-indigo-200">c</span><span class="border-t-8 border-indigo-200">t</span></p>
+            <p class="z-10 uppercase text-4xl font-mono tracking-wider"><span class="border-b-4 border-indigo-200">c</span><span class="border-b-8 border-indigo-200">o</span><span class="border-b-8 border-indigo-200">n</span><span class="bg-indigo-200 text-indigo-700 border-b-8 border-t-8 border-indigo-200 rounded-br-lg rounded-tl-lg">t</span><span class="border-t-8 border-indigo-200">a</span><span class="border-t-8 border-indigo-200">c</span><span class="border-t-4 border-indigo-200">t</span></p>
         </div>
         
         <div class="flex items-center justify-center py-4">
@@ -17,22 +17,32 @@
             <input type="text" placeholder="Phone" class="uppercase focus:outline-none mx-1 px-4 py-2 bg-transparent border-indigo-200 border-b-2">
         </div>
         <div class="flex items-center justify-center py-4">
-           <button class="bg-indigo-200 px-12 py-1 text-indigo-700 uppercase font-semibold text-3xl rounded-full flex items-center justify-center">Submit <svg class="w-8 inline" fill="currentColor" viewBox="0 0 20 20"><path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path><path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path></svg></button>
+           <button class="transform hover:-translate-y-2 duration-200 hover:shadow-lg hover:border-indigo-800 border-transparent border-b-4 bg-indigo-200 px-12 py-1 text-indigo-700 uppercase font-semibold text-3xl rounded-full flex items-center justify-center">Submit <svg class="w-8 inline" fill="currentColor" viewBox="0 0 20 20"><path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path><path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path></svg></button>
         </div>
     </div>
 </div>
 <style>
-    body{
-        background: 
-    linear-gradient(
-      rgba(0, 0, 0, 0.6),
-      rgba(0, 0, 0, 0.6)
-    ),
-    url(img/photo-1507679799987-c73779587ccf.jpg);
+
+    @media (min-width: 1280px){
+        .blob{
+            background-image: url(svg/blob.svg); 
+            background-repeat: no-repeat; 
+            background-position: center; 
+            background-size:fit;
+        }
+        body{
+            background: 
+        linear-gradient(
+        rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.6)
+        ),
+        url(img/photo-1507679799987-c73779587ccf.jpg);
 
 
-    background-repeat: no-repeat;
-    background-position: center;
-    -webkit-filter: drop-shadow(12px 12px 7px rgba(0,0,0,0.5));
+        background-repeat: no-repeat;
+        background-position: center;
+        -webkit-filter: drop-shadow(12px 12px 7px rgba(0,0,0,0.5));
+        }  
     }
+
 </style>
