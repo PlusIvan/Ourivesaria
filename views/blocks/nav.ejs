@@ -22,13 +22,13 @@
                     <% const active = 'rounded-full transform z-20 shadow-lg transform scale-125 bg-indigo-900 w-1/3 text-center text-indigo-100 uppercase font-medium text-2xl py-1'; %>
                     <% const inactive = 'rounded-full w-1/3 text-center text-indigo-900 uppercase font-medium text-2xl py-1';%>
 
-                    <div class="<% if(location == 'landing'){ %><%=active%><% }else{ %><%=inactive%><% } %>">
+                    <div onclick="window.location.href = '/';" class="<% if(location == 'landing'){ %><%=active%><% }else{ %><%=inactive%><% } %>">
                         Home
                     </div>
-                    <div class="<% if(location == 'shop'){ %><%=active%><% }else{ %><%=inactive%><% } %>">
+                    <div onclick="window.location.href = '/shop';" class="<% if(location == 'shop'){ %><%=active%><% }else{ %><%=inactive%><% } %>">
                         Shop
                     </div>
-                    <div class="<% if(location == 'about'){ %><%=active%><% }else{ %><%=inactive%><% } %>">
+                    <div onclick="window.location.href = '/about';" class="<% if(location == 'about'){ %><%=active%><% }else{ %><%=inactive%><% } %>">
                         about
                     </div>
 

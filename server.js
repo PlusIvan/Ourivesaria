@@ -22,3 +22,7 @@ app.get(['/shop'], function (req, res) {
 app.get(['/about'], function (req, res) {
     res.render('index', {location:'about'});
 });
+
+app.get(['/contact'], function (req, res) {
+    res.render('index', {location:'contact'});
+});
